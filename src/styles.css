@@ -698,7 +698,7 @@ span {
 
   .navbar a.active::before {
     background: var(--main-color);
-    opacity: 0.7;
+    opacity: 0.8;
   }
 
   .home .home-content {
@@ -823,7 +823,7 @@ span {
 
   .home .profession-container .profession-box {
     position: fixed;
-    top: 450px;
+    top: 520px;
     left: 0;
     width: 100%;
   }
@@ -835,7 +835,7 @@ span {
   }
 
   .home .profession-box .profession:nth-child(1) {
-    transform: rotate(-90deg) translate(-120px, -210px);
+    transform: rotate(-90deg) translate(-160px, -180px);
   }
 
   .home .profession-box .profession:nth-child(1) i {
@@ -863,7 +863,7 @@ span {
 
   .home .profession-container .overlay {
     position: fixed;
-    top: 70rem;
+    top: 85rem;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -900,7 +900,7 @@ span {
 
 @media (max-width: 580px) {
   .portfolio .portfolio-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 3fr;
   }
 }
 
@@ -910,7 +910,7 @@ span {
   }
 
   #darkMode-icon {
-    right: 6rem;
+    right: 7rem;
   }
 
   .home .profession-box .profession:nth-child(1) {
