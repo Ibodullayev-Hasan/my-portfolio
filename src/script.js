@@ -75,6 +75,18 @@ ScrollReveal({
     delay: 200
 });
 
+
+//resume
+document.getElementById('downloadCvBtn').addEventListener('click', () => {
+    // Fayl manzilini belgilang
+    const cvPath = '/cv/Ibodullayev Hasan resume.pdf'; // Masalan: 'assets/cv.pdf'
+    const anchor = document.createElement('a');
+    anchor.href = cvPath;
+    anchor.download = 'Ibodullayev Hasan resume';
+    anchor.click();
+  });
+
+
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .testimonial-wrapper, .contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
