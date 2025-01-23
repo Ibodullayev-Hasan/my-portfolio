@@ -79,7 +79,7 @@ ScrollReveal({
 //resume
 document.getElementById('downloadCvBtn').addEventListener('click', () => {
     // Fayl manzilini belgilang
-    const cvPath = '/cv/Ibodullayev Hasan resume (2).pdf'; // Masalan: 'assets/cv.pdf'
+    const cvPath = '/cv/Ibodullayev Hasan resume.pdf'; // Masalan: 'assets/cv.pdf'
     const anchor = document.createElement('a');
     anchor.href = cvPath;
     anchor.download = 'Ibodullayev Hasan resume';
