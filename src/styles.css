@@ -62,7 +62,7 @@ body {
   border-radius: 5px;
   display: none;
   z-index: 1000;
-  transition: top 0.3s ease;
+  transition: top 0.2s ease;
 }
 
 .message.show {
@@ -81,7 +81,7 @@ body {
   display: flex;
   align-items: center;
   z-index: 100;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .header.sticky {
@@ -101,7 +101,7 @@ body {
   font-size: 1.7rem;
   color: var(--white-color);
   font-weight: 500;
-  margin-right: 3.5rem;
+  margin-right: 2.5rem;
 }
 
 .header.sticky .navbar a {
@@ -188,7 +188,7 @@ section {
   font-size: 2rem;
   color: var(--main-color);
   margin: 2.5rem 1.5rem 3rem 0;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 
 .home-content .social-media a:hover {
@@ -207,7 +207,7 @@ section {
   letter-spacing: 0.1rem;
   font-weight: 600;
   border: 0.2rem solid transparent;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 
 .btn:hover {
@@ -344,6 +344,7 @@ span {
 .heading {
   font-size: 4.5rem;
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .about-content h2 {
@@ -391,7 +392,7 @@ span {
   text-align: center;
   border-top: 0.6rem solid var(--main-color);
   border-bottom: 0.6rem solid var(--main-color);
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 
 .services-container .services-box:hover {
@@ -406,7 +407,7 @@ span {
 
 .services-box h3 {
   font-size: 2.6rem;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 
 .services-box:hover h3 {
@@ -444,7 +445,7 @@ span {
 
 .portfolio-box img {
   width: 100%;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 
 .portfolio-box:hover img {
@@ -466,7 +467,7 @@ span {
   text-align: center;
   padding: 0 4rem;
   opacity: 0;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 
 .portfolio-box:hover .portfolio-layer {
@@ -648,7 +649,7 @@ span {
   border-radius: 0.8rem;
   border: 0.2rem solid var(--main-color);
   outline: 0.2rem solid transparent;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 
 .footer-iconTop a:hover {

@@ -13,7 +13,7 @@ document.getElementById('contactForm').addEventListener('submit', async (e) => {
 
     try {
         // Form ma'lumotlarini yuborish
-        const response = await fetch('https://send-gmail.up.railway.app/send-email', {
+        const response = await fetch('https://send-email-pro.up.railway.app/send-email', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data),
